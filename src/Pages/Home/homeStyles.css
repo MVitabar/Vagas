@@ -1,0 +1,70 @@
+.container {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .job-card {
+        background-color: grey;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 70vw;
+        margin: 15px auto;
+        padding: 15px;
+        border-radius: 10px;
+
+        .img-container {
+            align-items: center;
+            justify-content: center;
+
+            .company-logo {
+                width: 70px;
+
+                border-radius: 50%;
+            }
+        }
+
+
+        .job-desc {
+            width: 100%;
+            text-align: center;
+
+            .position {
+                font-weight: bold;
+                font-size: 18px;
+                text-align: center;
+
+            }
+
+            .company {
+                font-size: 14px;
+                text-align: center;
+
+            }
+
+            .location {
+                font-size: 14px;
+                text-align: center;
+
+            }
+
+            .date {
+                font-size: 14px;
+                text-align: center;
+            }
+
+            .ver-mais {
+                margin: 10px;
+                font-size: 14px;
+                color: blue;
+                cursor: pointer;
+                text-decoration: none;
+                text-align: center;
+            }
+        }
+
+    }
+}
